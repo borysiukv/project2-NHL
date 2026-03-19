@@ -1,22 +1,34 @@
-[build-system]
-requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.build_meta"
+### Project Title
 
-[project]
-name = "graph-paths"
-version = "0.1.0"
-description = "Personal Python project with Dijkstra and A* shortest path algorithms"
-readme = "README.md"
-authors = [{ name = "Your Name" }]
-requires-python = ">=3.11"
-dependencies = []
+Shortest Path Finding in Graphs Using Dijkstra and A* Algorithms
 
-[project.optional-dependencies]
-dev = ["pytest>=8.0"]
+### Description
 
-[tool.pytest.ini_options]
-pythonpath = ["src"]
-testpaths = ["tests"]
+This project implements two fundamental graph algorithms: **Dijkstra’s algorithm** and the **A* (A-star) search algorithm**, both used to compute the shortest path between nodes in a weighted graph.
 
-[tool.setuptools.packages.find]
-where = ["src"]
+The project demonstrates algorithmic problem-solving, efficient data structures (priority queues), and heuristic-based optimization. The A* algorithm extends Dijkstra’s approach by incorporating heuristics, making it especially useful for pathfinding in maps and game development.
+
+The codebase is designed with clarity, modularity, and scalability in mind, following Pythonic conventions and clean code principles.
+
+### Key Features
+
+* Implementation of Dijkstra’s shortest path algorithm
+* Implementation of A* search with heuristic support
+* Use of priority queues for optimal performance
+* Modular and extensible architecture
+* Command-line interface for demonstrations
+* Unit tests ensuring correctness
+
+### Technologies Used
+
+* Python 3
+* Pytest (testing)
+* Standard library (`heapq`, `dataclasses`, etc.)
+
+### Learning Outcomes
+
+* Understanding graph theory and shortest path algorithms
+* Comparison of uninformed vs heuristic search strategies
+* Practical use of priority queues and data structures
+* Writing efficient and readable algorithmic code
+
